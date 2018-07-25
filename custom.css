@@ -2973,7 +2973,7 @@ div.googlemaps iframe {
 }
 
 .jetpack_subscription_widget:before {
-	background-image: url('https://2017.europe.wordcamp.org/files/2017/01/background-pattern-01.png');
+	/*background-image: url('https://2017.europe.wordcamp.org/files/2017/01/background-pattern-01.png');*/
 	background-color: #2d282d !important;
 	background-size: 120px;
 	background-attachment: fixed;
@@ -3132,7 +3132,7 @@ div.googlemaps iframe {
 }
 
 #text-3:before,#text-4:before {
-	background-image: url('https://2017.europe.wordcamp.org/files/2017/01/background-pattern-01.png');
+	/*background-image: url('https://2017.europe.wordcamp.org/files/2017/01/background-pattern-01.png');*/
 	background-color: #f5ebe0 !important;
 	background-size: 120px;
 	background-attachment: fixed;
@@ -3384,7 +3384,7 @@ div.googlemaps iframe {
 }
 
 #content-widget-1:before {
-	background-image: url('https://2017.europe.wordcamp.org/files/2017/01/background-pattern-01.png');
+	/*background-image: url('https://2017.europe.wordcamp.org/files/2017/01/background-pattern-01.png');*/
 	background-color: #f5ebe0 !important;
 	background-size: 120px;
 	background-attachment: fixed;
