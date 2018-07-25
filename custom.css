@@ -2255,7 +2255,7 @@ div.googlemaps iframe {
 }
 
 .wcpt-schedule .global-session.afternoon-break,.wcpt-schedule .global-session.break,.wcpt-schedule .global-session.lunch,.wcpt-schedule .global-session.morning-break,.wcpt-schedule .global-session.registration {
-	background-image: url('https://2017.europe.wordcamp.org/files/2017/01/background-pattern-01.png');
+	/*background-image: url('https://2017.europe.wordcamp.org/files/2017/01/background-pattern-01.png');*/
 	background-color: #f5ebe0 !important;
 	background-size: 120px;
 	background-position: 50% 0;
