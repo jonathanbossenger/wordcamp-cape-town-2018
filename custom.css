@@ -5,6 +5,11 @@ Custom CSS for WordCamp Cape Town 2018 site
   font-weight:bold !important;
 }
 
+.page-navigation-container ul{
+    margin: 0 auto;
+    width: 750px;
+}
+
 /* Remote CSS from https://api.github.com/repos/lucijanblagonic/wceu-2017/contents/build/assets/stylesheets/style.css?ref=live */
 .cc--var-local-thunder:after {
 	background-color: #2d282d;
