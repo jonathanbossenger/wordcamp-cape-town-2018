@@ -701,7 +701,7 @@ select {
 
 a {
 	color: #000000c9;
-	text-decoration: underline;
+	text-decoration: none;
 	transition: all .15s ease;
 }
 
@@ -712,7 +712,7 @@ a:focus,a:hover {
 
 a:active {
 	color: #000000f5;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 p {
@@ -1686,7 +1686,7 @@ pre code {
 }
 
 .entry-title a:active,.entry-title a:focus,.entry-title a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .entry-meta {
@@ -3884,6 +3884,10 @@ img.emoji,img.wp-smiley {
 /* 2018 Cape Town Custom CSS */
 .button, button, input[type=button], input[type=reset], input[type=submit] {
     color: #fff;
+}
+
+.entry-content a {
+    text-decoration: underline;
 }
 
 .menu-main-menu-container {
