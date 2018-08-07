@@ -1,11 +1,11 @@
 /*
 Custom CSS for WordCamp Cape Town 2018 site
  */
-.site-description{
+.site-description {
   font-weight:bold !important;
 }
 
-.page-navigation-container ul{
+.page-navigation-container .menu {
     margin: 0 auto;
     width: 750px;
 }
@@ -940,13 +940,13 @@ pre code {
 		width: 47.36842%;
 		float: left;
 	}
-	
+
 	.cc:nth-child(odd) {
 		margin-right: -100%;
 		clear: both;
 		margin-left: 0;
 	}
-	
+
 	.cc:nth-child(2n+2) {
 		margin-left: 52.63158%;
 		margin-right: -100%;
@@ -959,19 +959,19 @@ pre code {
 		width: 31.03448%;
 		float: left;
 	}
-	
+
 	.cc:nth-child(3n+1) {
 		margin-right: -100%;
 		clear: both;
 		margin-left: 0;
 	}
-	
+
 	.cc:nth-child(3n+2) {
 		margin-left: 34.48276%;
 		margin-right: -100%;
 		clear: none;
 	}
-	
+
 	.cc:nth-child(3n+3) {
 		margin-left: 68.96552%;
 		margin-right: -100%;
@@ -1232,24 +1232,24 @@ pre code {
 	0% {
 		transform: skewX(50deg);
 	}
-	
+
 	5% {
 		transform: skewX(50deg);
 	}
-	
+
 	20% {
 		transform: skewX(-60deg);
 	}
-	
+
 	50% {
 		transform: skewX(-50deg);
 		opacity: .1;
 	}
-	
+
 	80% {
 		opacity: .2;
 	}
-	
+
 	to {
 		transform: skewX(50deg);
 		opacity: .1;
@@ -1261,36 +1261,36 @@ pre code {
 		transform: skewX(-50deg);
 		opacity: .1;
 	}
-	
+
 	5% {
 		transform: skewX(-50deg);
 	}
-	
+
 	10% {
 		opacity: .05;
 	}
-	
+
 	30% {
 		opacity: .2;
 	}
-	
+
 	40% {
 		opacity: .1;
 	}
-	
+
 	50% {
 		transform: skewX(60deg);
 		opacity: .1;
 	}
-	
+
 	60% {
 		opacity: .2;
 	}
-	
+
 	80% {
 		opacity: .1;
 	}
-	
+
 	to {
 		transform: skewX(-50deg);
 	}
@@ -1370,7 +1370,7 @@ pre code {
 	.main-navigation {
 		background-color: #2d282d;
 	}
-	
+
 	.main-navigation.toggled-on .menu {
 		display: block;
 	}
@@ -1403,7 +1403,7 @@ pre code {
 		border-top: 1px solid hsla(0,0%,100%,.2);
 		display: none;
 	}
-	
+
 	.toggled-on .menu {
 		display: block;
 	}
@@ -1473,7 +1473,7 @@ pre code {
 	.menu-item-has-children {
 		background-color: transparent;
 	}
-	
+
 	.menu-item-has-children>a:after {
 		position: relative;
 		top: -.125rem;
@@ -1484,25 +1484,25 @@ pre code {
 		border-top-color: #000000f5;
 		content: "";
 	}
-	
+
 	.menu-item-has-children>a .dropdown-toggle {
 		display: inline-block;
 		display: none;
 	}
-	
+
 	.menu-item-has-children.focus>a,.menu-item-has-children:hover>a {
 		color: rgba(29,36,42,.9);
 		background-color: #000000c9;
 	}
-	
+
 	.menu-item-has-children.focus>a:after,.menu-item-has-children:hover>a:after {
 		border-top-color: rgba(29,36,42,.9);
 	}
-	
+
 	.menu-item-has-children.focus>.sub-menu,.menu-item-has-children:hover>.sub-menu {
 		left: 0;
 	}
-	
+
 	.menu-item-has-children.current-menu-item>a:after {
 		border-top-color: rgba(29,36,42,.9);
 	}
@@ -1528,7 +1528,7 @@ pre code {
 		background-size: 12px;
 		background-position: 1rem 50%;
 	}
-	
+
 	.sub-menu a.focus,.sub-menu a:focus,.sub-menu a:hover {
 		background-image: url('https://2017.europe.wordcamp.org/files/2017/01/decoration-bullet-dark.png');
 	}
@@ -1543,14 +1543,14 @@ pre code {
 		min-width: 16.25rem;
 		background-color: #000000c9;
 	}
-	
+
 	.sub-menu .menu-item {
 		width: 100%;
 		margin: 0;
 		border-top: 1px solid hsla(0,0%,100%,.2);
 		text-align: left;
 	}
-	
+
 	.sub-menu a {
 		padding: .625rem 1rem;
 		color: rgba(29,36,42,.75);
@@ -1801,7 +1801,7 @@ pre code {
 	#tix-attendees .tix-columns-3 li {
 		width: 50%;
 	}
-	
+
 	#tix-attendees .tix-columns-3 li:nth-child(odd) {
 		clear: left;
 	}
@@ -1811,11 +1811,11 @@ pre code {
 	#tix-attendees .tix-columns-3 li {
 		width: 33.33333%;
 	}
-	
+
 	#tix-attendees .tix-columns-3 li:nth-child(odd) {
 		clear: none;
 	}
-	
+
 	#tix-attendees .tix-columns-3 li:nth-child(3n+1) {
 		clear: left;
 	}
@@ -2117,28 +2117,28 @@ article.comment-body {
 	.tix_tickets_table thead tr {
 		display: none;
 	}
-	
+
 	.tix_tickets_table tbody .tix-column-description {
 		display: block;
 		width: 100%;
 	}
-	
+
 	.tix_tickets_table tbody .tix-column-price,.tix_tickets_table tbody .tix-column-quantity,.tix_tickets_table tbody .tix-column-remaining {
 		display: block;
 		float: left;
 	}
-	
+
 	.tix_tickets_table tbody .tix-column-price {
 		padding-left: 0;
 	}
-	
+
 	.tix_tickets_table tbody .tix-column-price,.tix_tickets_table tbody .tix-column-remaining {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 		line-height: 1.5em;
 		width: 30%;
 	}
-	
+
 	.tix_tickets_table tbody .tix-column-quantity {
 		width: 40%;
 	}
@@ -2272,23 +2272,23 @@ div.googlemaps iframe {
 	.wcpt-schedule {
 		border: none;
 	}
-	
+
 	.wcpt-schedule td,.wcpt-schedule th {
 		display: block;
 		border-top: none;
 		margin: 0;
 	}
-	
+
 	.wcpt-schedule thead {
 		display: none;
 	}
-	
+
 	.wcpt-schedule tr {
 		margin-bottom: 1rem;
 		display: block;
 		border: .25rem solid #000000c9;
 	}
-	
+
 	.wcpt-schedule .wcb-track-track-1:before,.wcpt-schedule .wcb-track-track-2:before,.wcpt-schedule .wcb-track-track-3:before {
 		display: block;
 		padding: .5rem 1rem;
@@ -2298,40 +2298,40 @@ div.googlemaps iframe {
 		font-weight: 700;
 		background-color: #f5ebe0 !important;
 	}
-	
+
 	.wcpt-schedule .wcb-track-track-1:before {
 		content: "Track 1";
 	}
-	
+
 	.wcpt-schedule .wcb-track-track-2:before {
 		content: "Track 2";
 	}
-	
+
 	.wcpt-schedule .wcb-track-track-3:before {
 		content: "Track 3";
 	}
-	
+
 	.wcpt-schedule .wcpt-session-type-custom:before {
 		display: none;
 		content: "";
 	}
-	
+
 	.wcpt-schedule .wcpt-session-empty {
 		display: none;
 		height: 0;
 	}
-	
+
 	.wcpt-schedule .wcpt-time {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
 		color: hsla(0,0%,100%,.9);
 		background-color: #2d282d;
 	}
-	
+
 	.wcpt-schedule .wcpt-session-title {
 		padding: 0;
 	}
-	
+
 	.wcpt-schedule .wcpt-session-speakers {
 		padding-left: 0;
 	}
@@ -2755,7 +2755,7 @@ div.googlemaps iframe {
 		padding-top: 0;
 		border-top: none;
 	}
-	
+
 	.wcorg-sponsors>div h2:after,.wcorg-sponsors>div h2:before {
 		position: absolute;
 		top: 50%;
@@ -2766,7 +2766,7 @@ div.googlemaps iframe {
 		content: "";
 		z-index: -1;
 	}
-	
+
 	.wcorg-sponsors>div h2:after {
 		border-color: #fff;
 		width: 16em;
@@ -2806,7 +2806,7 @@ div.googlemaps iframe {
 	.wcorg-sponsor {
 		padding: 1rem;
 	}
-	
+
 	.wcorg-sponsor img {
 		max-height: 12.5rem;
 	}
@@ -3150,17 +3150,17 @@ div.googlemaps iframe {
 	#text-3,#text-4 {
 		position: relative;
 	}
-	
+
 	#text-3 .widget-title,#text-4 .widget-title {
 		text-align: left;
 	}
-	
+
 	#text-3 p,#text-4 p {
 		margin-bottom: 0;
 		margin-right: 20rem;
 		text-align: left;
 	}
-	
+
 	#text-3 .realistic-ticket,#text-4 .realistic-ticket {
 		position: absolute;
 		top: 0;
