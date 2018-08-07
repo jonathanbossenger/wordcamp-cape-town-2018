@@ -701,7 +701,7 @@ select {
 
 a {
 	color: #000000c9;
-	text-decoration: none;
+	text-decoration: underline;
 	transition: all .15s ease;
 }
 
@@ -712,7 +712,7 @@ a:focus,a:hover {
 
 a:active {
 	color: #000000f5;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 p {
@@ -1686,7 +1686,7 @@ pre code {
 }
 
 .entry-title a:active,.entry-title a:focus,.entry-title a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .entry-meta {
