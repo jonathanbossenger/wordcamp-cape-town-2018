@@ -3922,4 +3922,9 @@ p.site-description {
 	margin-left: auto;
 	margin-right: auto;
 	width: 810px;
+	visibility: visible;
+}
+
+.site-title a {
+	visibility: hidden;
 }
