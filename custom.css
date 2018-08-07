@@ -3901,8 +3901,9 @@ img.emoji,img.wp-smiley {
 	background-size: cover;
 }
 
+
 .site-title a::before {
-	background-image: url('https://2018.capetown.wordcamp.org/files/2018/07/WordCamp-Logo-White.png');
+	background-image: url('https://2018.capetown.wordcamp.org/files/2018/08/WCCT-Logo.png');
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
