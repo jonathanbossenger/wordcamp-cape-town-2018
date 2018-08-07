@@ -3886,7 +3886,8 @@ img.emoji,img.wp-smiley {
 /* 2018 Cape Town Custom CSS */
 p.site-description {
     background: #fff;
-    width: max-content;
+    width: fit-content;
+    width: -moz-fit-content;
     margin: 0 auto;
     padding: 10px;
     color: #0cafa9;
@@ -3929,4 +3930,11 @@ p.site-description {
 
 .site-title a {
 	visibility: hidden;
+}
+
+
+@media(max-width: 890px){
+	.site-title a::before{
+		width: auto;
+	}
 }
