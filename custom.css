@@ -1080,9 +1080,11 @@ pre code {
 	background-color: #eee;
 }
 
+/*
 .site-header {
 	background-color: #2d282d;
 }
+*/
 
 .site-header .site-branding {
 	position: relative;
@@ -1431,7 +1433,7 @@ pre code {
 
 .menu-item a {
 	display: block;
-	color: #000000f5;
+	color: #fff;
 	padding: .5rem 1rem;
 	text-decoration: none;
 	transition: all .1s ease;
@@ -1455,7 +1457,7 @@ pre code {
 }
 
 .current-menu-item>a {
-	color: #fff;
+	color: #fff66c;
 	background-color: #000000f5;
 }
 
@@ -3899,7 +3901,7 @@ p.site-description {
 }
 
 .menu-main-menu-container {
-	background: #fff;
+	background: #070303;
 	border-bottom: 1px solid;
 }
 
