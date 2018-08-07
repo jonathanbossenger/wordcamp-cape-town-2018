@@ -3882,6 +3882,10 @@ img.emoji,img.wp-smiley {
 }
 
 /* 2018 Cape Town Custom CSS */
+.button, button, input[type=button], input[type=reset], input[type=submit] {
+    color: #fff;
+}
+
 .menu-main-menu-container {
 	background: #fff;
 	border-bottom: 1px solid;
