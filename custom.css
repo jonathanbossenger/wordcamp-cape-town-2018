@@ -1553,7 +1553,7 @@ pre code {
 
 	.sub-menu a {
 		padding: .625rem 1rem;
-		color: rgba(29,36,42,.75);
+		color: #fff;
 	}
 }
 
@@ -3884,6 +3884,12 @@ img.emoji,img.wp-smiley {
 }
 
 /* 2018 Cape Town Custom CSS */
+
+#menu-item-454 > ul {
+    top: 4em;
+}
+
+
 p.site-description {
     background: #fff;
     width: fit-content;
