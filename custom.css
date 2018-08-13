@@ -3890,6 +3890,8 @@ img.emoji,img.wp-smiley {
 
 #menu-item-454 > ul {
     top: 4em;
+    box-shadow: none;
+    background: no-repeat;
 }
 
 
@@ -3946,4 +3948,10 @@ p.site-description {
 	.site-title a::before{
 		width: auto;
 	}
+}
+
+@media(max-width: 991px){
+	#menu-item-454 > ul {
+    top: 2em;
+	}	
 }
