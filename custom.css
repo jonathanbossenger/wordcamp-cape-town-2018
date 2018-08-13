@@ -3884,6 +3884,9 @@ img.emoji,img.wp-smiley {
 }
 
 /* 2018 Cape Town Custom CSS */
+#tix-attendees .avatar {
+    border: 0px;
+}
 
 #menu-item-454 > ul {
     top: 4em;
