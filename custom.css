@@ -3884,6 +3884,10 @@ img.emoji,img.wp-smiley {
 }
 
 /* 2018 Cape Town Custom CSS */
+.wcorg-sponsor .wcorg-sponsor-description p, .wcorg-sponsor h3 {
+    display: block;
+}
+
 #tix-attendees .avatar {
     border: 0px;
 }
