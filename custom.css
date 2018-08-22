@@ -1,4 +1,4 @@
-/*
+3333/*
 Custom CSS for WordCamp Cape Town 2018 site
  */
 .site-description {
@@ -3884,6 +3884,15 @@ img.emoji,img.wp-smiley {
 }
 
 /* 2018 Cape Town Custom CSS */
+.home .site-header .site-branding:before {
+    display: none;
+}
+
+.home .site-header .site-branding:after {
+    display: none;
+}
+
+
 .wcorg-sponsor .wcorg-sponsor-description p, .wcorg-sponsor h3 {
     display: block;
 }
