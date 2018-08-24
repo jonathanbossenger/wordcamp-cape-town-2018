@@ -3901,6 +3901,10 @@ img.emoji,img.wp-smiley {
     border: 0px;
 }
 
+.page-navigation-container ul ul {
+    top: 3.9em;
+}
+
 #menu-item-454 > ul {
     top: 4em;
     box-shadow: none;
