@@ -3897,6 +3897,10 @@ img.emoji,img.wp-smiley {
     border-radius: 2px;
 }
 
+.page-navigation-container ul ul a {
+    width: auto;
+}
+
 
 .home .site-header .site-branding:before {
     display: none;
@@ -3973,6 +3977,27 @@ p.site-description {
 .site-title a {
 	visibility: hidden;
 }
+
+@media (max-width: 37.4375em){
+.sub-menu a {
+    padding-left: 2.5rem;
+    background-image: none !important;
+    background-repeat: no-repeat;
+    background: black !important;
+    background-size: 12px;
+    background-position: 1rem 50%;
+
+}
+.page-navigation-container ul ul {
+    top: 2.6em !important;
+}
+
+.page-navigation-container ul ul a {
+    width: 200px !important;
+}
+}
+
+
 
 
 @media(max-width: 890px){
