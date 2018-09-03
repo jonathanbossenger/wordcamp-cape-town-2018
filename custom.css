@@ -3884,6 +3884,20 @@ img.emoji,img.wp-smiley {
 }
 
 /* 2018 Cape Town Custom CSS */
+#book-button {
+    display: block;
+    padding: 1em 0;
+    background: hsl(300, 6%, 17%);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+
 .home .site-header .site-branding:before {
     display: none;
 }
