@@ -3884,6 +3884,12 @@ img.emoji,img.wp-smiley {
 }
 
 /* 2018 Cape Town Custom CSS */
+.page-navigation-container .menu {
+    margin: 0 auto;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
 #book-button {
     display: block;
     padding: 1em 0;
