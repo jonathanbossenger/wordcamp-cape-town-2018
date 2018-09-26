@@ -1351,6 +1351,15 @@ pre code {
 	}
 }
 
+@media (max-width: 37.4375em) {
+	.menu-toggle {
+		color: #fff;
+	}
+	.menu-toggle:after {
+		border-top-color: #fff;
+	}
+}
+
 .main-navigation {
 	position: relative;
 	background-color: rgba(0,0,0,.2);
