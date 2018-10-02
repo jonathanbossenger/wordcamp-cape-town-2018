@@ -1,4 +1,4 @@
-3333/*
+/*
 Custom CSS for WordCamp Cape Town 2018 site
  */
 .site-description {
@@ -3893,6 +3893,10 @@ img.emoji,img.wp-smiley {
 }
 
 /* 2018 Cape Town Custom CSS */
+strong.event {
+    color: #fff;
+}
+
 .page-navigation-container .menu {
     margin: 0 auto;
     width: fit-content;
