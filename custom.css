@@ -3893,6 +3893,16 @@ img.emoji,img.wp-smiley {
 }
 
 /* 2018 Cape Town Custom CSS */
+li#menu-item-454 {
+    background: #fff !important;
+}
+
+#menu-item-454 > a {
+    background: #fff !important;
+    color: #000;
+}
+
+
 strong.event {
     color: #fff;
 }
