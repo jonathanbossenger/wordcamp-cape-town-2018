@@ -1312,7 +1312,7 @@ pre code {
 }
 
 .menu-toggle,.menu-toggle.focus,.menu-toggle:active,.menu-toggle:focus,.menu-toggle:hover {
-	color: #000000f5;
+	color: #fff;
 	background-color: rgba(45,40,45,.9);
 }
 
