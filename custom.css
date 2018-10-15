@@ -1312,7 +1312,8 @@ pre code {
 }
 
 .menu-toggle,.menu-toggle.focus,.menu-toggle:active,.menu-toggle:focus,.menu-toggle:hover {
-	color: #fff;
+	/*color: #000000f5;*/
+	color:#fff;
 	background-color: rgba(45,40,45,.9);
 }
 
@@ -1351,12 +1352,13 @@ pre code {
 	}
 }
 
-
-.menu-toggle {
-	color: #fff;
-}
-.menu-toggle:after {
-	border-top-color: #fff;
+@media (max-width: 37.4375em) {
+	.menu-toggle {
+		color: #fff;
+	}
+	.menu-toggle:after {
+		border-top-color: #fff;
+	}
 }
 
 .main-navigation {
@@ -1499,7 +1501,8 @@ pre code {
 	}
 
 	.menu-item-has-children.focus>a,.menu-item-has-children:hover>a {
-		color: rgba(29,36,42,.9);
+		/*color: rgba(29,36,42,.9);*/
+		color:#fff66c;
 		background-color: #000000c9;
 	}
 
