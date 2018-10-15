@@ -1351,13 +1351,12 @@ pre code {
 	}
 }
 
-@media (max-width: 37.4375em) {
-	.menu-toggle {
-		color: #fff;
-	}
-	.menu-toggle:after {
-		border-top-color: #fff;
-	}
+
+.menu-toggle {
+	color: #fff;
+}
+.menu-toggle:after {
+	border-top-color: #fff;
 }
 
 .main-navigation {
@@ -4038,5 +4037,5 @@ p.site-description {
 @media(max-width: 991px){
 	#menu-item-454 > ul {
     top: 2em;
-	}	
+	}
 }
