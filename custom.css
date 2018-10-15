@@ -1338,12 +1338,14 @@ pre code {
 }
 
 .menu-toggle[aria-expanded=true] {
-	color: #000000c9;
+	/*color: #000000c9;*/
+	color: #fff66c;
 }
 
 .menu-toggle[aria-expanded=true]:after {
 	border-top-color: transparent;
-	border-bottom-color: #000000f5;
+	/*border-bottom-color: #000000f5;*/
+	border-bottom-color: #fff66c;
 }
 
 @media (min-width:37.5em) {
