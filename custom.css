@@ -1491,7 +1491,8 @@ pre code {
 		border: .375rem solid transparent;
 		margin-left: .5rem;
 		vertical-align: middle;
-		border-top-color: #000000f5;
+		/*border-top-color: #000000f5;*/
+		border-top-color: #fff66c;
 		content: "";
 	}
 
