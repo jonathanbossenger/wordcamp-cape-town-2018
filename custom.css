@@ -1492,7 +1492,7 @@ pre code {
 		margin-left: .5rem;
 		vertical-align: middle;
 		/*border-top-color: #000000f5;*/
-		border-top-color: #fff66c;
+		border-top-color: #fff;
 		content: "";
 	}
 
@@ -1508,7 +1508,8 @@ pre code {
 	}
 
 	.menu-item-has-children.focus>a:after,.menu-item-has-children:hover>a:after {
-		border-top-color: rgba(29,36,42,.9);
+		/*border-top-color: rgba(29,36,42,.9);*/
+		border-top-color:#fff66c;
 	}
 
 	.menu-item-has-children.focus>.sub-menu,.menu-item-has-children:hover>.sub-menu {
